@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import { IoTrash, IoSave } from "react-icons/io5";
+import Button from "./components/Button/Button";
+
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <section>
+        <h2>Primary</h2>
+        <ul>
+          <li>
+
+            <Button text="Save as..." buttonType="primary" onClick={() => alert("Primary button clicked or Spacebar/Enter Key Pressed")}>
+              <IoSave />
+            </Button>
+          </li>
+          <li>
+            <Button text="Delete" disabled buttonType="primary" onClick={() => alert("Primary button Disabled clicked or Spacebar/Enter Key Pressed")} >
+              <IoTrash />
+            </Button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Secondary</h2>
+        <ul>
+          <li>
+            <Button text="Save as...">
+              <IoSave />
+            </Button>
+          </li>
+          <li>
+            <Button text="Save as..." disabled>
+              <IoSave />
+            </Button>
+          </li>
+        </ul>
+      </section>
+    </main>
   );
 }
-
 export default App;

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+	display: flex;
+	max-width: 500px;
+	margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+main > section {
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    main > section {
+        width: 50%;
+    } 
+}
+
+ul {
+	margin: 0;
+	list-style: none;
+	padding: 0 .5rem;
+}
+
+ul > li {
+    margin-bottom: 1rem;
+}
+
