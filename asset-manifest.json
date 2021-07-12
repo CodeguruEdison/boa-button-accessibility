@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/boa-button-accessibility/static/css/main.406ecc09.chunk.css",
+    "main.js": "/boa-button-accessibility/static/js/main.c767d859.chunk.js",
+    "main.js.map": "/boa-button-accessibility/static/js/main.c767d859.chunk.js.map",
+    "runtime-main.js": "/boa-button-accessibility/static/js/runtime-main.38b73ae8.js",
+    "runtime-main.js.map": "/boa-button-accessibility/static/js/runtime-main.38b73ae8.js.map",
+    "static/js/2.309b4d23.chunk.js": "/boa-button-accessibility/static/js/2.309b4d23.chunk.js",
+    "static/js/2.309b4d23.chunk.js.map": "/boa-button-accessibility/static/js/2.309b4d23.chunk.js.map",
+    "index.html": "/boa-button-accessibility/index.html",
+    "static/css/main.406ecc09.chunk.css.map": "/boa-button-accessibility/static/css/main.406ecc09.chunk.css.map",
+    "static/js/2.309b4d23.chunk.js.LICENSE.txt": "/boa-button-accessibility/static/js/2.309b4d23.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38b73ae8.js",
+    "static/js/2.309b4d23.chunk.js",
+    "static/css/main.406ecc09.chunk.css",
+    "static/js/main.c767d859.chunk.js"
+  ]
+}
